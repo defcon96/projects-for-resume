@@ -1,5 +1,5 @@
 import sys
-import subprocess 
+import subprocess
 import os
 from decouple import config
 
@@ -15,4 +15,4 @@ while True:
   connected_ip = line.decode('utf-8').split()[3]
 
   if connected_ip == IP_DEVICE:
-      subprocess.Popen(["say", "Linnea just connected to the network"])
+      subprocess.Popen(["say", "babe is home"])
