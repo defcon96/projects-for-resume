@@ -1,2 +1,2 @@
-foods = ["apples","grapes","peaches" ,"oranges"]
+foods = ["apples","grapes","peaches" ,"oranges","banana"]
 print (foods)
