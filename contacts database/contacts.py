@@ -6,8 +6,8 @@ import sqlite3
 
   cursor = connection.cursor()
 
-  #create store table
+  #create a contact list
 
-  
+
 
   cursor.execute(cammand1)
